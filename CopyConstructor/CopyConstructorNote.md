@@ -1,4 +1,4 @@
-1- We use a copy constructor to create an object with the same values as another object "another object on head "
+1- We use a copy constructor to create an object with the same values as another object "another object on heap "
 
 That’s why a copy constructor takes another object to copy from, unlike assigning an object to a variable 
 of the same class type
