@@ -14,3 +14,19 @@ Encapsulation improves maintainability by centralized our logic only one place ,
 
  What happens if you don't use encapsulation?
   we not validate value assign to filed , can access filed from any ware , will not have centralized "property" to set our logic
+
+ 
+
+==> used Interface with Has a relationship
+
+Using an interface gives more flexibility because it provides our contract methods, and many derived classes can implement 
+it in accordance with their requirements.
+
+==> Composition characteristics: when the container class dies, the contained object will also die.
+The contained object is created inside the container class.
+
+==> Aggregation characteristics: if the container object dies, the contained object will not die.
+The contained object is not created inside the container class; it is passed to the class constructor or method.
+
+
+                                                   
