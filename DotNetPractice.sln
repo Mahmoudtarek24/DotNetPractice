@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyConstructor", "CopyCons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopPrinciples", "OopPrinciples\OopPrinciples.csproj", "{FB51F6C1-1CED-4CA0-978F-FF9A3C8CFE82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open-Closed Principle", "Open-Closed Principle\Open-Closed Principle.csproj", "{F536BA4C-64B3-453D-95F1-EFC3C7A20EEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{FB51F6C1-1CED-4CA0-978F-FF9A3C8CFE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB51F6C1-1CED-4CA0-978F-FF9A3C8CFE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB51F6C1-1CED-4CA0-978F-FF9A3C8CFE82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F536BA4C-64B3-453D-95F1-EFC3C7A20EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F536BA4C-64B3-453D-95F1-EFC3C7A20EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F536BA4C-64B3-453D-95F1-EFC3C7A20EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F536BA4C-64B3-453D-95F1-EFC3C7A20EEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
