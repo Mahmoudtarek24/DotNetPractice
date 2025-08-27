@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopPrinciples", "OopPrincip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open-Closed Principle", "Open-Closed Principle\Open-Closed Principle.csproj", "{F536BA4C-64B3-453D-95F1-EFC3C7A20EEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core Inheritance", "EF Core Inheritance\EF Core Inheritance.csproj", "{EC2002B2-C915-463B-B3B0-12252ABF874E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F536BA4C-64B3-453D-95F1-EFC3C7A20EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F536BA4C-64B3-453D-95F1-EFC3C7A20EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F536BA4C-64B3-453D-95F1-EFC3C7A20EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC2002B2-C915-463B-B3B0-12252ABF874E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC2002B2-C915-463B-B3B0-12252ABF874E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC2002B2-C915-463B-B3B0-12252ABF874E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC2002B2-C915-463B-B3B0-12252ABF874E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
