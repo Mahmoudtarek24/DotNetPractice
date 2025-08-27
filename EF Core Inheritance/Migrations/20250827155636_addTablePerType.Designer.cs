@@ -4,6 +4,7 @@ using EF_Core_Inheritance.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EF_Core_Inheritance.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250827155636_addTablePerType")]
+    partial class addTablePerType
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,32 +24,6 @@ namespace EF_Core_Inheritance.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.HasSequence("VehicleSequence");
-
-            modelBuilder.Entity("EF_Core_Inheritance.TablePerConcrete.Models.Vehicle", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasDefaultValueSql("NEXT VALUE FOR [VehicleSequence]");
-
-                    SqlServerPropertyBuilderExtensions.UseSequence(b.Property<int>("Id"));
-
-                    b.Property<string>("Brand")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Model")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable((string)null);
-
-                    b.UseTpcMappingStrategy();
-                });
 
             modelBuilder.Entity("EF_Core_Inheritance.TablePerHierarchy.Models.Employee", b =>
                 {
@@ -101,26 +78,6 @@ namespace EF_Core_Inheritance.Migrations
                     b.ToTable("People", (string)null);
 
                     b.UseTptMappingStrategy();
-                });
-
-            modelBuilder.Entity("EF_Core_Inheritance.TablePerConcrete.Models.Car", b =>
-                {
-                    b.HasBaseType("EF_Core_Inheritance.TablePerConcrete.Models.Vehicle");
-
-                    b.Property<int>("NumberOfDoors")
-                        .HasColumnType("int");
-
-                    b.ToTable("Cars", (string)null);
-                });
-
-            modelBuilder.Entity("EF_Core_Inheritance.TablePerConcrete.Models.Motorcycle", b =>
-                {
-                    b.HasBaseType("EF_Core_Inheritance.TablePerConcrete.Models.Vehicle");
-
-                    b.Property<bool>("HasBasket")
-                        .HasColumnType("bit");
-
-                    b.ToTable("Motorcycles", (string)null);
                 });
 
             modelBuilder.Entity("EF_Core_Inheritance.TablePerHierarchy.Models.Contractor", b =>
