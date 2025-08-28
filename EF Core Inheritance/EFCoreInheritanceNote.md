@@ -28,35 +28,3 @@ only derived class mapped to table on database , base class not mapped like (tpt
 all properties of base class when update database it set on derive classes ,
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
