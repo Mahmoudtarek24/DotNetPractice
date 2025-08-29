@@ -1,5 +1,6 @@
-
+using AspNetCorePractice.Context;
 using AspNetCorePractice.Middleware;
+using Microsoft.EntityFrameworkCore;
 
 namespace AspNetCorePractice
 {
@@ -11,6 +12,10 @@ namespace AspNetCorePractice
 
 			// Add services to the container.
 
+			builder.Services.AddDbContext<ApplicationDbContext>(options =>
+			{
+				options.UseSqlServer(builder.Configuration.GetConnectionString("AspDotNetPracticeDbConnection"));
+			});
 			builder.Services.AddControllers();
 			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 			builder.Services.AddEndpointsApiExplorer();

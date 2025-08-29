@@ -68,3 +68,7 @@ Benefits of Dependency Injection (DI)
    For example, in OrderService, we call the method from EmailService to notify the user that the order has been shipped.
 4- Achieves loose coupling (maintainability): any change in the dependent class will not affect my code, 
    since I usually depend on abstraction.
+
+
+notes =>
+Dependency Injection isn't really about "injecting dependencies" it's about designing for change
