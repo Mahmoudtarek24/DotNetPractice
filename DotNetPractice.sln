@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core Inheritance", "EF C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency Injection Design Pattern", "Dependency Injection Design Pattern\Dependency Injection Design Pattern.csproj", "{E09E6AA1-CCCA-47DC-AD10-53160FAD6C10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generic\Generics.csproj", "{D14A21A5-3128-4A43-BAAF-867CC75BF87B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{E09E6AA1-CCCA-47DC-AD10-53160FAD6C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E09E6AA1-CCCA-47DC-AD10-53160FAD6C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E09E6AA1-CCCA-47DC-AD10-53160FAD6C10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14A21A5-3128-4A43-BAAF-867CC75BF87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14A21A5-3128-4A43-BAAF-867CC75BF87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14A21A5-3128-4A43-BAAF-867CC75BF87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14A21A5-3128-4A43-BAAF-867CC75BF87B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
