@@ -22,7 +22,11 @@ operation not valid
 2- can not create object from it 
 
 
+----------------------------------------------------------------------------------------------------------------------------------
 
+"When we use sorting with a built-in data type, it works because the type implements the IComparable interface.
+But when we try to sort a custom type, like a class that doesn’t implement IComparable, we get an error."
+need to implement it to get sort order need it 
 
 
 
