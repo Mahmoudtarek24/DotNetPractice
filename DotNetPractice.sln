@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core Inheritance", "EF C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency Injection Design Pattern", "Dependency Injection Design Pattern\Dependency Injection Design Pattern.csproj", "{E09E6AA1-CCCA-47DC-AD10-53160FAD6C10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generic\Generics.csproj", "{D14A21A5-3128-4A43-BAAF-867CC75BF87B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedC_Sharp", "Generic\AdvancedC_Sharp.csproj", "{D14A21A5-3128-4A43-BAAF-867CC75BF87B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
